@@ -120,3 +120,15 @@ while True:
         print("\n")
         break
 ```
+
+## FlowChart
+
+![Gambar Flowchart](Screnshoot/FlowChart1.png)<br/>
+
+
+## Hasil Program
+
+Berikut Untuk Hasil Program nya<br/>
+![Gambar Hasil](Screnshoot/sshasil.png)
+
+
