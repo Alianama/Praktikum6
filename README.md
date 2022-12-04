@@ -94,3 +94,29 @@ def hapus_data():
         del data[cari_hapus]
         print("Data NIM ",cari_hapus," Berhasil di Hapus")
 ```
+
+3. Setelah Semua Fungsi yang di butuhkan sudah dibuat saya melakukan perulangan menggunakan ```python while True: ``` untuk memanggil fungsi yang telah saya buat sebelumnya
+
+```python
+while True:
+
+    pilih = input("(L)ihat, (U)bah, (T)ambah, (H)apus, (K)eluar ? :")
+
+    if pilih == 't':
+        tambah_data()
+        
+    elif pilih == 'u':
+        edit_data()
+        
+    elif pilih == 'l':
+        lihat_data()
+        
+    elif pilih == 'h':
+        hapus_data()
+        
+    elif pilih == 'k':
+        print("\n")
+        print("Selamat Tinggal Sampai Berjuma kembali")
+        print("\n")
+        break
+```
