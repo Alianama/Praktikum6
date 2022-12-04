@@ -10,10 +10,10 @@ yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan:<br/>
 - Buat flowchart dan penjelasan programnya pada README.md.<br/>
 - Commit dan push repository ke github.
 
-### Source Code 
+## Source Code 
 ![Gambar Code](Screnshoot/sscode.png)<br/>
 
-## Penjelasan 
+### Penjelasan 
 
 1. Pertama saya buat dulu dictionary Kosong untuk menampung data <br/>
 ```python
@@ -95,7 +95,7 @@ def hapus_data():
         print("Data NIM ",cari_hapus," Berhasil di Hapus")
 ```
 
-3. Setelah Semua Fungsi yang di butuhkan sudah dibuat saya melakukan perulangan menggunakan ```python while True: ``` untuk memanggil fungsi yang telah saya buat sebelumnya
+3. Setelah Semua Fungsi yang di butuhkan sudah dibuat saya melakukan perulangan menggunakan ```while``` untuk memanggil fungsi yang telah saya buat sebelumnya
 
 ```python
 while True:
