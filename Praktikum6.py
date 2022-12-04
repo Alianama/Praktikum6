@@ -65,7 +65,7 @@ def edit_data():
         else:
             print("NIM Mahasiswa ",add_nim," Tidak Ditemukan, Masukan NIM yang Benar!")
 
-
+# Hapus Data Mahasiswa
 def hapus_data():
     lihat_data()
     cari_hapus = int(input("Masukan NIM data yang ingin di Hapus ! :"))
@@ -74,6 +74,7 @@ def hapus_data():
         print("Data NIM ",cari_hapus," Berhasil di Hapus")
         
 
+# Perulangan menggunakan While untuk Memanggil Fungsi fi atas
 
 while True:
 
